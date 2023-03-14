@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: api.OrderCreateTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.338 s <<< FAILURE! - in api.OrderCreateTests
+createOrderWithoutAuthAndIngredientsTest(api.OrderCreateTests)  Time elapsed: 7.028 s  <<< FAILURE!
+java.lang.AssertionError: 
+"Код ответа не соответствует 401"
+Expected: <401>
+     but: was <200>
+	at api.OrderCreateTests.createOrderWithoutAuthAndIngredientsTest(OrderCreateTests.java:67)
+
